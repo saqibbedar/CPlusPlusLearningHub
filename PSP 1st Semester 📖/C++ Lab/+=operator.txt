@@ -1,0 +1,40 @@
+The `+=` operator is used in C++ for incrementing the value of a variable by a specified amount and then assigning the result back to the same variable. In other words, it's a shorthand way to update a variable by adding a given value to it.
+
+Here's how it works:
+
+```cpp
+variable += value;
+```
+
+- `variable` is the variable you want to update.
+- `value` is the amount you want to add to `variable`.
+
+It's equivalent to writing:
+
+```cpp
+variable = variable + value;
+```
+
+Here's an example to illustrate how `+=` works:
+
+```cpp
+int x = 5;
+x += 3; // This is the same as writing x = x + 3;
+
+// Now, x will be 8 because we added 3 to its original value.
+```
+
+You can use `+=` with various data types, including integers, floats, and other numeric types. It's a convenient way to update variables, especially when you want to increment or decrement them by a specific amount.
+
+It's worth noting that `+=` is not limited to just addition; it can be used for other arithmetic operations like subtraction, multiplication, and division as well. For example:
+
+```cpp
+int y = 10;
+y -= 2; // Subtraction: y = y - 2;
+
+int z = 4;
+z *= 5; // Multiplication: z = z * 5;
+
+float a = 6.0;
+a /= 2.0; // Division: a = a / 2.0;
+```

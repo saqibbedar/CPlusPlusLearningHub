@@ -1,0 +1,40 @@
+// Post increment operator: (++) a++, b++ : the ++ operator comes after a variable
+
+/*
+    1. a++ is the post-increment operator, which increments the value of a by 1 but returns the original value. So, a++ evaluates to 5, and a becomes 6.
+
+    (a++ != 0) compares the result of a++ (5) to 0. This condition is true because 5 is not equal to 0.
+*/
+
+// Pre increment operator: (++) ++a, ++b : the ++ operator comes before a variable
+
+/*
+    2. ++b is the pre-increment operator, which increments the value of b by 1 and returns the updated value. So, ++b evaluates to 1, and b becomes 1.
+
+    ++c < b compares ++c (4) to b (1). This condition is false because 4 is not less than 1.
+*/
+
+// Explanation: 
+
+/*
+(a++ != 0) compares the current value of a (5) to 0. This condition is true, and a is incremented, becoming 6.
+
+(a <= ++b) compares the current value of a (6) to the value of b after incrementing (++b evaluates to 1). This condition is false because 6 is not less than or equal to 1.
+
+(++c < b) compares the value of c after incrementing (++c evaluates to 4) to the current value of b (1). This condition is also false.
+
+Now, we have the overall expression: true || (false && false). Since the expression on the right side of the || operator is false, the whole expression is true.
+*/
+
+// output 
+
+/*
+    (a++ != 0) is true.
+    (a <= ++b) is true.
+    (++c < b) is false.
+
+    a is 6.
+    b is 1.
+    c is 4.
+    b1 is true.
+*/
