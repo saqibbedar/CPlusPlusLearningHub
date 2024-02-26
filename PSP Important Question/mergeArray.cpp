@@ -8,9 +8,6 @@ Merges the two arrays into a third array arr3.
 Implements a sorting algorithm to sort the elements of arr3.
 Displays the sorted array arr3.
 Properly deallocates the dynamically allocated memory.
-Ensure that your program includes functions for input, merging, swapping, sorting, and display as specified in the provided code. Also, handle memory allocation and deallocation appropriately.
-
-Note: You may consider using the bubble sort algorithm for the sorting operation.
 */
 
 #include <iostream>
